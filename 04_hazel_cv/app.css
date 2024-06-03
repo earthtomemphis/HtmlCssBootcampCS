@@ -48,7 +48,7 @@ body {
 .two-column-section {
 	font-size: 1rem;
 }
-.two-column-section p {
+.two-column-section > p {
 	width: 50%;
 	box-sizing: border-box;
 	float: left;
@@ -64,4 +64,32 @@ body {
 	width: 50%;
 	float: left;
 	margin: 5px 0;
+}
+.blog-section {
+	background-color: white;
+	padding: 64px 0;
+}
+.blog-content {
+	padding: 0 15%;
+}
+.two-column-section .blog-posts {
+	width: 50%;
+	float: left;
+}
+.blog-heading {
+	font-size: 1.5rem;
+}
+.blog-text {
+	font-size: 1rem;
+}
+.blog-posts {
+	margin-top: 24px;
+}
+.blog-posts .blog-date {
+	font-size: 0.9rem;
+	color: gray;
+	margin-bottom: 32px;
+}
+.blog-posts p {
+	margin: 8px 0;
 }
